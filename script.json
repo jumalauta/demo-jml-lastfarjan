@@ -1,0 +1,28 @@
+{
+    "graphics": {
+        "clearColor": {
+            "a": 0.0,
+            "b": 0.0,
+            "g": 0.0,
+            "r": 0.0
+        },
+        "defaultTextureWrap":0,
+        "defaultTextureFilter":2,
+        "defaultFboTextureWrap":0,
+        "defaultFboTextureFilter":2,
+        "canvasHeight":720,
+        "canvasWidth":1280
+    },
+
+    "beatsPerMinute": 100,
+    "rowsPerBeat": 6,
+    "title": "JML!",
+    "fft":{
+        "enable":true,
+        "divisor": 3.0,
+        "clipMin": 0.0,
+        "clipMax": 1.0,
+        "size": 64,
+        "history": 5
+    }
+}
